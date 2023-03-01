@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>잉글리시엘리펀트</title>
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+   	<header>
+   	    <div class="hd_top">
+   	        <a href="javascript:history.back(-1)" class="back"></a>
+   	        <p class="hd_title">수업예약</p>
+   	    </div>
+   	</header>
+    <section id="book_reserv">
+        <div class="inner14">
+            <p class="br_date">2021-06-01 13:30</p>
+            <div class="flex br_top">
+                <img src="img/book.png">
+                
+                <div class="br_teach">
+                    <div class="flex">
+                        <img src="img/pf1.png">
+                        <p class="teacher_name">teacher Isabella</p>
+                    </div>
+                    
+                    <p>Chapter_01</p>
+                    <p>수업제목자리</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="inner14">
+            <p>당신의 수업요구사항을 선택해주세요.</p>
+            
+            <div class="flex br_rabox">
+                <input type="radio" id="br_ra1" name="br_ra1" checked>
+                <label for="br_ra1" class="br_ra">인사 나누기</label>
+                <p class="vers">vs</p>
+                <input type="radio" id="br_ra2" name="br_ra1">
+                <label for="br_ra2" class="br_ra">곧바로 수업</label>
+            </div>
+            <div class="flex br_rabox">
+                <input type="radio" id="br_ra3" name="br_ra2">
+                <label for="br_ra3" class="br_ra">한 챕터만 수업</label>
+                <p class="vers">vs</p>
+                <input type="radio" id="br_ra4" name="br_ra2" checked>
+                <label for="br_ra4" class="br_ra">연달아 진도</label>
+            </div>
+        </div>
+        
+        <button type="button" class="br_btn">수업 예약</button>
+    </section>
+</body>
+</html>
+

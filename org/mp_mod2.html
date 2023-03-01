@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>잉글리시엘리펀트</title>
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="hd_top">
+            <a href="javascript:history.back(-1)" class="back"></a>
+            <p class="hd_title">회원정보수정</p>
+        </div>
+    </header>
+    <section id="mp_mod">
+        <input type="file" accept="images/*" id="mod_photo">
+        <label for="mod_photo" class="mod_photo">
+            <img src="img/pf_none.png">
+            <img src="img/mod.png">
+        </label>
+
+        <ul class="mod_ul">
+            <li class="flex btw">
+                <p class="mod_ul_title">아이디</p>
+                <p class="mod_id">english22</p>
+            </li>
+            <li class="about_me_box">
+                <p class="mod_ul_title">소개문구수정</p>
+                <textarea>우간다 최고 명문대 마케레레 대학 저널리즘 전공 제 이름은 이사벨라Isabella예요. 저는 학부때 저널리즘을 전공했고 교사가 되리라곤 생각하지 못했지만 지난 몇년간 제 열정이 바로 학생들을 키워내는 것에 있었다는걸 깨달았지요...</textarea>
+            </li>
+            <li class="flex btw">
+                <p class="mod_ul_title">영어이름</p>
+                <div class="mod_input_wrap">
+                    <input type="text" class="mod_input_short">
+                    <button type="button" class="mod_btn">랜덤추천</button>
+                </div>
+            </li>
+
+            <li class="flex btw">
+                <p class="mod_ul_title">비밀번호</p>
+                <div class="mod_input_wrap">
+                    <input type="password" class="mod_input_long">
+                </div>
+            </li>
+
+            <li class="flex btw">
+                <p class="mod_ul_title">비밀번호확인</p>
+                <div class="mod_input_wrap">
+                    <input type="password" class="mod_input_long">
+                </div>
+            </li>
+        </ul>
+
+        <button type="button" class="mod_btn2" onclick="location.href='my_teacher.html'">수정</button>
+    </section>
+</body>
+
+</html>

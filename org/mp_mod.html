@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>잉글리시엘리펀트</title>
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+   	<header>
+   	    <div class="hd_top">
+   	        <a href="javascript:history.back(-1)" class="back"></a>
+   	        <p class="hd_title">회원정보수정</p>
+   	    </div>
+   	</header>
+    <section id="mp_mod">
+        <input type="file" accept="images/*" id="mod_photo">
+        <label for="mod_photo" class="mod_photo">
+            <img src="img/pf_none.png">
+            <img src="img/mod.png">
+        </label>
+        
+        <ul class="mod_ul">
+            <li class="flex btw">
+                <p class="mod_ul_title">아이디</p>
+                <p class="mod_id">english22</p>
+            </li>
+            
+            <li class="flex btw">
+                <p class="mod_ul_title">영어이름</p>
+                <div class="mod_input_wrap">
+                    <input type="text" class="mod_input_short">
+                    <button type="button" class="mod_btn">랜덤추천</button>
+                </div>
+            </li>
+            
+            <li class="flex btw">
+                <p class="mod_ul_title">비밀번호</p>
+                <div class="mod_input_wrap">
+                    <input type="password" class="mod_input_long">
+                </div>
+            </li>
+            
+            <li class="flex btw">
+                <p class="mod_ul_title">비밀번호확인</p>
+                <div class="mod_input_wrap">
+                    <input type="password" class="mod_input_long">
+                </div>
+            </li>
+            
+            <li class="flex btw">
+                <p class="mod_ul_title">휴대전화</p>
+                <div class="mod_input_wrap">
+                    <input type="number" class="mod_input_short">
+                    <button type="button" class="mod_btn">인증요청</button>
+                </div>
+            </li>
+            
+            <li class="flex btw">
+                <p class="mod_ul_title">인증번호</p>
+                <div class="mod_input_wrap">
+                    <input type="number" class="mod_input_short">
+                    <button type="button" class="mod_btn" disabled>번호확인</button>
+                </div>
+            </li>
+        </ul>
+        
+        <button type="button" class="mod_btn2" onclick="location.href='mypage.html'">수정</button>
+    </section>
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>잉글리시엘리펀트</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+   	<header>
+   	    <div class="hd_top">
+   	        <a href="javascript:history.back(-1)" class="back"></a>
+   	        <p class="hd_title">회원가입</p>
+   	    </div>
+   	</header>
+    <section id="join">
+        <div class="inner50">
+           <div class="join_logo">
+               <img src="img/logo.png">
+           </div>
+
+           <div class="input_box">
+               <p class="fs14">아이디</p>
+               <div class="flex">
+                   <input type="text" class="inp_st2" placeholder="아이디 입력">
+                   <button type="button" class="inp_btn" disabled>중복확인</button>
+               </div>
+           </div>
+           <div class="input_box">
+               <p class="fs14">영어이름</p>
+               <div class="flex">
+                   <input type="text" class="inp_st2" placeholder="영어이름 입력">
+                   <button type="button" class="inp_btn">랜덤추천</button>
+               </div>
+           </div>
+           <div class="input_box">
+               <p class="fs14">비밀번호</p>
+               <input type="password" class="inp_st1" placeholder="비밀번호 입력">
+           </div>
+           <div class="input_box">
+               <p class="fs14">비밀번호 확인</p>
+               <input type="password" class="inp_st1" placeholder="비밀번호 입력">
+           </div>
+           <div class="input_box">
+               <p class="fs14">휴대전화</p>
+               <div class="flex">
+                   <input type="number" class="inp_st2" placeholder="-없이 숫자만 입력">
+                   <button type="button" class="inp_btn" disabled>인증요청</button>
+               </div>
+           </div>
+           <div class="input_box">
+               <p class="fs14">인증번호</p>
+               <div class="flex">
+                   <input type="number" class="inp_st2" placeholder="인증번호 입력">
+                   <button type="button" class="inp_btn" disabled>번호확인</button>
+               </div>
+           </div>
+           
+           <button type="button" class="join_btn2" disabled onclick="location.href='login.html'">가입</button>
+        </div>
+    </section>
+</body>
+</html>
+
